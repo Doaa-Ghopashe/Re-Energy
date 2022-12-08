@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Re Energy</title>
+    <!--Links-->
+    <link rel="shortcut icon" href="Assets/Images/Fav-icon/2731636.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body>
+    <!--start of header-->
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand align-items-center d-flex" href="Home.html"><img src="Assets/Images/Logo/2731636 (1).png"> Energy</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-seedling"></i> Food
+                    </a>
+                    <div class="dropdown-list p-0 border-0 d-inline text-center overflow-hidden">
+                        <a class="dropdown-item" href="index2.html">Breakfast</a>
+                        <a class="dropdown-item" href="index2.html">Lunch</a>
+                    </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-martini-glass-citrus"></i> Drink
+                        </a>
+                        <div class="dropdown-list  p-0 border-0 d-inline text-center overflow-hidden">
+                            <a class="dropdown-item" href="index2.html">Fresh Drinks</a>
+                            <a class="dropdown-item" href="index2.html">Hot Drinks</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index2.html"><i class="fa-solid fa-cookie"></i> Dessert</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href=""><i class="fa-solid fa-blog"></i> Blog</a>
+                    </li>
+                
+                </ul>
+                <div class="centeralized-links">
+                    <a href="tel:0115434" title="phone number" class="btn border">604-524-113</a>
+                    <a href="" class="btn border" title="Address">12 Al-nasr street el-maddi</a>
+                </div>
+                </div>
+
+                <div class="beside-links">
+                    <a href="" class="btn" title="login"><i class="fa-solid fa-user"></i></a>
+                    <a href="#" class="btn" id="orderlist" title="Orders"><i class="fa-solid fa-basket-shopping"></i></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--end of header-->
+
+
+
+    <!--Main-->
+    <main>
+        <!--product form-->
+        <section class="products py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="product">
+                       
+                        <div class="form">
+                            <select class="form-control" name="Category" id="" required>
+                                <option value="Breakfast">Breakfast</option>
+                                <option value="Lunch">Lunch</option>
+                                <option value="Fresh-Drinks">Fresh Drinks</option>
+                                <option value="Hot-Drinks">Hot Drinks</option>
+                                <option value="Desserts">Dessert</option>
+                            </select>
+
+                            <input type="text" name="productName" class="form-control my-3" placeholder="Enter product name" required>
+
+                            <span class="Image">
+                                <label for="p-img">Chosen Image :</label>
+                                <input type="file" name="Image" id="p-img" required>
+                            </span>
+                            <input type="text" name="price" class="form-control my-3" placeholder="Enter product price" required>
+
+                            <div class="product-info d-flex align-items-center justify-content-between">
+                                <span class="carbo"><input name="productinfo" type="number" step="0.01" min="0" max="1000" class="form-control" value="0" required></span>
+                                <span class="fats"><input name="productinfo" type="number" step="0.01" min="0" class="form-control" value="0" required></span>
+                                <span class="sugar"><input name="productinfo" type="number" step="0.01" min="0" class="form-control" value="0" required></span>
+                                <span class="calories"><input name="productinfo" type="number" step="0.01" min="0" class="form-control" value="0" required></span>
+                                <span class="fiber"><input name="productinfo" type="number" step="0.01" min="0" class="form-control" value="0" required></span>
+                                <span class="protien"><input name="productinfo" type="number" step="0.01" min="0" class="form-control" value="0" required></span>
+                            </div>
+                            
+                            <textarea class="form-control mb-3" name="recipe" id="" cols="30" rows="10" placeholder="Enter Recipe"></textarea>
+                            <div class="submit"><a href="" id="add-product" class="btn btn-primary bg-dark border-0 py-3 px-3">Add Product</a></div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--end of product form-->
+        <!--sidebar-->
+        <section class="sidebar" id="sidebar">
+            <div class="exist" id="exit">
+                <a href=""><i class="fa-solid fa-right-from-bracket"></i></a>
+            </div>
+            <div class="orderContainer">
+                <!--the code will be written here-->
+            </div>
+            <hr>
+            <div class="sidebar-footer">
+                <div class="total-price">
+                
+                </div>
+                <div class="confirmation">
+                    <button class="btn btn-primary" id="confirm">Confirm</button>
+                </div>
+            </div>
+        </section>
+        <!--end of sidebar-->
+        <!--scroll-up button-->
+        <div class="goto-up hidebtn bg-light">
+            <a href="" class="btn">UP</a>
+            <br>
+            <i class="fa-solid fa-arrow-up"></i>
+        </div>
+        <!--end of scroll-up button-->
+        <!--Waiting Screen-->
+        <div class="Waiting-screen">
+            <h1 class="ml6">
+                <span class="text-wrapper">
+                <span class="letters">Wait for a while, please </span> 
+                <span class="smile"><i class="fa-regular fa-face-smile-wink"></i></span>
+        
+                </span>
+            </h1>
+        </div>
+        <!--end of waiting screen-->
+    </main>
+    <!--end of main-->
+
+
+
+    <!--start of footer-->
+    <footer class="p-70 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                    <div class="about">
+                        <div class="heading">
+                            <h4>About</h4>
+                        </div>
+                        <ul>
+                            <li><i class="fa-solid fa-hand-sparkles"></i> Totally interested in cleanliness</li>
+                            <li><i class="fa-solid fa-clock-rotate-left"></i> Available 24 hours a day</li>
+                            <li><i class="fa-solid fa-stopwatch"></i> On time delivery</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="social-media">
+                        <div class="heading">
+                            <h4>Contact</h4>
+                        </div>
+                        <div class="social-links">
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                    <div class="support">
+                        <div class="heading">
+                            <h4>Support</h4>
+                        </div>
+                        <ul>
+                            <li><i class="fa-solid fa-chevron-right"></i><a href=""> How to cancle order?</a></li>
+                            <li><i class="fa-solid fa-chevron-right"></i><a href=""> How to cancle order?</a></li>
+                            <li><i class="fa-solid fa-chevron-right"></i><a href=""> How to cancle order?</a></li>
+                            <li><i class="fa-solid fa-chevron-right"></i><a href=""> How to cancle order?</a></li>
+                            <li><i class="fa-solid fa-chevron-right"></i><a href=""> How to cancle order?</a></li>
+                            <li><i class="fa-solid fa-chevron-right"></i><a href=""> How to cancle order?</a></li>
+                            <li><i class="fa-solid fa-chevron-right"></i><a href=""> How to cancle order?</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-3 col-sm-12">
+                    <div class="google-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13818.508382520897!2d31.251179599999997!3d30.0188622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458474aefef8513%3A0x57026e1b86877bcf!2z2YXYp9mD2K_ZiNmG2KfZhNiv2LI!5e0!3m2!1sar!2seg!4v1668192098992!5m2!1sar!2seg" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="copyright col-lg-12 text-left border-top pt-3 mt-2">
+                    Copyright ©<span id="date"></span> All rights reserved | This template is made with <a href="">Flasher</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--end of footer-->
+
+
+    <!--scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="JS/wow.min.js"></script>
+    <script src="JS/popper.min.js"></script>
+    <script src="JS/jquery-3.6.1.min.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+</html>

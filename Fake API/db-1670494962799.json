@@ -1,0 +1,724 @@
+{
+  "products": [
+    {
+      "name": "Cappuccino",
+      "category": "Hot-Drinks",
+      "imgsrc": "Assets/Images/Hot drinks/Hot drink 1.jpg ",
+      "price": "30.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 1
+    },
+    {
+      "name": "Esspresso",
+      "category": "Hot-Drinks",
+      "imgsrc": "Assets/Images/Hot drinks/Hot drink 2.jpg",
+      "price": "30.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 1
+    },
+    {
+      "name": "Chamomile Tea",
+      "category": "Hot-Drinks",
+      "imgsrc": "Assets/Images/Hot drinks/Hot drink 3.jpg",
+      "price": "30.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 1
+    },
+    {
+      "name": "Caramel latte",
+      "category": "Hot-Drinks",
+      "imgsrc": "Assets/Images/Hot drinks/Hot drink 4.jpg",
+      "price": "30.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 1
+    },
+    {
+      "name": "Dalgona Coffee",
+      "category": "Hot-Drinks",
+      "imgsrc": "Assets/Images/Hot drinks/Hot drink 5.jpg ",
+      "price": "30.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 1
+    },
+    {
+      "name": "Frappuccino",
+      "category": "Hot-Drinks",
+      "imgsrc": "Assets/Images/Hot drinks/Hot drink 6.jpg",
+      "price": "30.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 1
+    },
+    {
+      "name": "Hot Chocolate & Marshmallow",
+      "category": "Hot-Drinks",
+      "imgsrc": "Assets/Images/Hot drinks/Hot drink 7.jpg",
+      "price": "30.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 1
+    },
+    {
+      "name": "Chocolate Frappe",
+      "category": "Hot-Drinks",
+      "imgsrc": "Assets/Images/Hot drinks/Hot drink 8.jpg",
+      "price": "30.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 1
+    },
+    {
+      "name": "Green Tea",
+      "category": "Hot-Drinks",
+      "imgsrc": "Assets/Images/Hot drinks/Hot drink 9.jpg",
+      "price": "30.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 1
+    },
+    {
+      "name": "Turkish Coffee",
+      "category": "Hot-Drinks",
+      "imgsrc": "Assets/Images/Hot drinks/Hot drink 10.jpg",
+      "price": "30.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 1
+    },
+    {
+      "name": "American Coffee",
+      "category": "Hot-Drinks",
+      "imgsrc": "Assets/Images/Hot drinks/Hot drink 11.jpg",
+      "price": "30.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 1
+    },
+    {
+      "name": "Beef Burritos",
+      "category": "Breakfast",
+      "imgsrc": "Assets/Images/Food/Food 1.jpg",
+      "price": "140.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 2
+    },
+    {
+      "name": "Sushi",
+      "category": "Breakfast",
+      "imgsrc": "Assets/Images/Food/Food 2.jpg ",
+      "price": "140.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 2
+    },
+    {
+      "name": "Rice",
+      "category": "Breakfast",
+      "imgsrc": "Assets/Images/Food/Food 3.jpg ",
+      "price": "140.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 2
+    },
+    {
+      "name": " Fotografia de stock",
+      "category": "Breakfast",
+      "imgsrc": "Assets/Images/Food/Food 4.jpg",
+      "price": "140.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 2
+    },
+    {
+      "name": "Fish Soup",
+      "category": "Breakfast",
+      "imgsrc": "Assets/Images/Food/Food 5.jpg ",
+      "price": "140.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 2
+    },
+    {
+      "name": "Shrimp",
+      "category": "Breakfast",
+      "imgsrc": "Assets/Images/Food/Food 6.jpg ",
+      "price": "140.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 2
+    },
+    {
+      "name": " Pasta",
+      "category": "Breakfast",
+      "imgsrc": "Assets/Images/Food/Food 7.jpg",
+      "price": "140.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 2
+    },
+    {
+      "name": "Fettuccine",
+      "category": "Breakfast",
+      "imgsrc": "Assets/Images/Food/Food 8.jpg ",
+      "price": "140.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 2
+    },
+    {
+      "name": "Chicken & Mushroom Soup",
+      "category": "Breakfast",
+      "imgsrc": "Assets/Images/Food/Food 9.jpg ",
+      "price": "140.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 2
+    },
+    {
+      "name": " French Frise",
+      "category": "Breakfast",
+      "imgsrc": "Assets/Images/Food/Food 10.jpg",
+      "price": "140.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 2
+    },
+    {
+      "name": "Tacco",
+      "category": "Breakfast",
+      "imgsrc": "Assets/Images/Food/Food 11.jpg ",
+      "price": "140.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 2
+    },
+    {
+      "name": " Pizza With Mushroom",
+      "category": "Breakfast",
+      "imgsrc": "Assets/Images/Food/Food 12.jpg ",
+      "price": "140.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 2
+    },
+    {
+      "name": "Oysters Rockefeller",
+      "category": "Breakfast",
+      "imgsrc": "Assets/Images/Food/Food 13.jpg",
+      "price": "140.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 2
+    },
+    {
+      "name": "Watermellon Smoothie",
+      "category": "Fresh-Drinks",
+      "imgsrc": "Assets/Images/Fresh Juice/Fresh-Juice 7.jpg ",
+      "price": "15.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 3
+    },
+    {
+      "name": "Celery Juice",
+      "category": "Fresh-Drinks",
+      "imgsrc": "Assets/Images/Fresh Juice/Fresh-Juice 1.jpg ",
+      "price": "45.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 4
+    },
+    {
+      "name": "Blueberry Juice",
+      "category": "Fresh-Drinks",
+      "imgsrc": "Assets/Images/Fresh Juice/Fresh-Juice 9.jpg ",
+      "price": "45.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 5
+    },
+    {
+      "name": "Avocado Juice",
+      "category": "Fresh-Drinks",
+      "imgsrc": "Assets/Images/Fresh Juice/Fresh-Juice 6.jpg ",
+      "price": "70.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 6
+    },
+    {
+      "name": "Apple Juice",
+      "category": "Fresh-Drinks",
+      "imgsrc": "Assets/Images/Fresh Juice/Fresh-Juice 8.jpg ",
+      "price": "25.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 7
+    },
+    {
+      "name": "Lemon Juice",
+      "category": "Fresh-Drinks",
+      "imgsrc": "Assets/Images/Fresh Juice/Fresh-Juice 2.jpg ",
+      "price": "15.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 8
+    },
+    {
+      "name": "Milkshake Twix",
+      "category": "Fresh-Drinks",
+      "imgsrc": "Assets/Images/Fresh Juice/Fresh-Juice 4.jpg ",
+      "price": "20.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 9
+    },
+    {
+      "name": "Spinach Cucumber Juice",
+      "category": "Fresh-Drinks",
+      "imgsrc": "Assets/Images/Fresh Juice/Fresh-Juice 5.jpg ",
+      "price": "30.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 10
+    },
+    {
+      "name": "Strawberry Smoothie",
+      "category": "Fresh-Drinks",
+      "imgsrc": "Assets/Images/Fresh Juice/Fresh-Juice 3.jpg ",
+      "price": "30.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 11
+    },
+    {
+      "name": "Mango Juice",
+      "category": "Fresh-Drinks",
+      "imgsrc": "Assets/Images/Fresh Juice/Fresh-Juice 11.jpg ",
+      "price": "30.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 12
+    },
+    {
+      "name": "Orange Juice",
+      "category": "Fresh-Drinks",
+      "imgsrc": "Assets/Images/Fresh Juice/Fresh-Juice 12.jpg ",
+      "price": "15.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 13
+    },
+    {
+      "name": "Pomegranate Juice",
+      "category": "Fresh-Drinks",
+      "imgsrc": "Assets/Images/Fresh Juice/Fresh-Juice 10.jpg ",
+      "price": "30.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 14
+    },
+    {
+      "name": "Coulant du Chocolate",
+      "category": "Desserts",
+      "imgsrc": "Assets/Images/Desserts/Dessert 1.jpg ",
+      "price": "30.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 10
+    },
+    {
+      "name": "Sponge Cake",
+      "category": "Desserts",
+      "imgsrc": "Assets/Images/Desserts/Dessert 2.jpg  ",
+      "price": "30.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 11
+    },
+    {
+      "name": "Strawberry Crepes",
+      "category": "Desserts",
+      "imgsrc": "Assets/Images/Desserts/Dessert 3.jpg  ",
+      "price": "30.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 12
+    },
+    {
+      "name": "Apple Pie",
+      "category": "Desserts",
+      "imgsrc": "Assets/Images/Desserts/Dessert 4.jpg  ",
+      "price": "15.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 13
+    },
+    {
+      "name": "Chocolate Mousse",
+      "category": "Desserts",
+      "imgsrc": "Assets/Images/Desserts/Dessert 5.jpg ",
+      "price": "30.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 14
+    },
+    {
+      "name": "Rice",
+      "category": "Lunch",
+      "imgsrc": "Assets/Images/Food/Food 3.jpg ",
+      "price": "140.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 2
+    },
+    {
+      "name": "Fettuccine",
+      "category": "Lunch",
+      "imgsrc": "Assets/Images/Food/Food 8.jpg ",
+      "price": "140.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 2
+    },
+    {
+      "name": " French Frise",
+      "category": "Lunch",
+      "imgsrc": "Assets/Images/Food/Food 10.jpg",
+      "price": "140.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 2
+    },
+    {
+      "name": "Tacco",
+      "category": "Lunch",
+      "imgsrc": "Assets/Images/Food/Food 11.jpg ",
+      "price": "140.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 2
+    }
+  ]
+}
