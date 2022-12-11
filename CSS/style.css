@@ -51,7 +51,6 @@ header{
     width: 16%;
     display: flex;
     align-items: center;
-    /* width: 25%; */
     font-weight: 600;
 }
 .navbar-brand div:first-child{
@@ -59,9 +58,6 @@ header{
 }
 .navbar-brand div:last-child{
     width: 80%;
-}
-.navbar-light .navbar-brand img{
-    /* width: 25%; */
 }
 .collapse{
     font-size:19px
