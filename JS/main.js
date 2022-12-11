@@ -297,7 +297,7 @@ if(location.href.includes("index2.html")){
         
         $(".SearchBox .form-control").on("keyup" , function(e){
             let founditems = new Set();
-            for(let item of products.products){
+            for(let item of products){
                 if(item.category.split("-").join(" ").toLowerCase() == localStorage.getItem("CurrentLocation")){
                     if(item.name.toLowerCase().includes(this.value.trim().toLowerCase()) && this.value != ""){
                         founditems.add(item);
