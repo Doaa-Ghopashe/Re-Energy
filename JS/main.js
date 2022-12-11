@@ -1,6 +1,6 @@
 "use strict"
 async function getData (callback){
-    let response = await fetch("http://localhost:3000/products");
+    let response = await fetch("db.json");
     let finalresult = await response.json();
     callback(finalresult);
 }
