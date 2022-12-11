@@ -13,7 +13,7 @@ body{
     position: relative;
     font-family: 'Rajdhani', sans-serif;
 
-    background-image: url("../Assets/Images/wp3469881\ \(2\).jpg");
+    background-image: url("../Assets/Images/Body\ Img.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -382,6 +382,10 @@ textarea{
 }
 .products input[type=number]{
     position: relative;
+}
+.products .product-info{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .products .product-info span{
     position: relative;
@@ -810,6 +814,13 @@ footer{
     .order .img  , .order .info{
         width: 100%;
     }
+    .products .product-info span{
+        width: 50%;
+        padding-right: 15px;
+    }
+    .products .product-info .form-control{
+        width: 100%;
+    }
 
 }
 @media screen and (max-width:991px) {
@@ -849,6 +860,7 @@ footer{
     .navbar-nav{
         width: 100%;
     }
+    
 }
 @media screen and (max-width:768px) {
     .sidebar{
@@ -859,6 +871,13 @@ footer{
     }
     .navbar-brand div:last-child {
         width: 60%;
+    }
+    .products .product-info span{
+        width: 100%;
+        padding-right: 0;
+    }
+    .products .product-info .form-control{
+        width: 100%;
     }
 } 
 @media screen and (max-width:600px) {
