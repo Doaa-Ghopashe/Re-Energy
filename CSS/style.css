@@ -47,12 +47,21 @@ header{
     z-index: 200;
 }
 .navbar-light .navbar-brand {
-    font-size: 33px;
+    font-size: 2rem;
     width: 16%;
+    display: flex;
+    align-items: center;
+    /* width: 25%; */
     font-weight: 600;
 }
+.navbar-brand div:first-child{
+    width: 20%;
+}
+.navbar-brand div:last-child{
+    width: 80%;
+}
 .navbar-light .navbar-brand img{
-    width: 25%;
+    /* width: 25%; */
 }
 .collapse{
     font-size:19px
@@ -466,9 +475,6 @@ input[type=file]{
     right: 0;
     transition: all 1s;
 }
-/* .exist{
-    height: 5vh;
-} */
 .exist a{
     padding-left: 23px;
     color: black;
@@ -503,9 +509,6 @@ input[type=file]{
     margin-bottom: 12px;
     width: 97%;
 }
-/* .sidebar-footer{
-    height: 45vh;
-} */
 .order .img{
     width: 50%;
 }
@@ -781,13 +784,18 @@ footer{
     line-height: 1em;
   }
 /*-------------------------------------------------------------------------------------Media Query-------------------------------------------------------------------*/
-/* في هنا الmedia query عايزة تتعدل بس كده */
 @media screen and (max-width:1236px){
     .centeralized-links a:last-child{
         display: none;
     }
 }
 @media screen and (max-width:1024px) {
+    .navbar-light .navbar-brand {
+        width: 23%;
+    }
+    .beside-links {
+        margin-left: auto;
+    }
     .centeralized-links a:last-child{
         display: none;
     }
@@ -810,13 +818,18 @@ footer{
 }
 @media screen and (max-width:991px) {
     .beside-links{
-        width: 68%;
         text-align: end;
     }
     .dropdown-list{
         position: relative;
         display: none;
         top: 0;
+    }
+    .navbar-brand div:first-child {
+        width: 30%;
+    }
+    .navbar-brand div:last-child {
+        width: 70%;
     }
     .show{
         display: block !important;
@@ -845,10 +858,25 @@ footer{
     .sidebar{
         width: 35%;
     }
+    .navbar-brand div:first-child {
+        width: 40%;
+    }
+    .navbar-brand div:last-child {
+        width: 60%;
+    }
 } 
 @media screen and (max-width:600px) {
     .sidebar{
-        width: 40%;
+        width: 55%;
+    }
+    .orderContainer {
+        height: 40vh;
+    }    
+    .navbar-brand div:first-child {
+        width: 50%;
+    }
+    .navbar-brand div:last-child {
+        width: 50%;
     }
 }
 
