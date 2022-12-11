@@ -206,7 +206,7 @@ if(location.href.includes("index2.html")){
     //function to list the products in the localstorage in the index2 page according to its category
     function displayproducts(products){
         document.querySelector(".products .row").innerHTML = "";
-        for(let item of products){
+        for(let item of products.products){
 
             if(item.category.split("-").join(" ").toLowerCase() == localStorage.getItem("CurrentLocation")){
                 let productcard = `
@@ -297,7 +297,7 @@ if(location.href.includes("index2.html")){
         
         $(".SearchBox .form-control").on("keyup" , function(e){
             let founditems = new Set();
-            for(let item of products){
+            for(let item of products.products){
                 if(item.category.split("-").join(" ").toLowerCase() == localStorage.getItem("CurrentLocation")){
                     if(item.name.toLowerCase().includes(this.value.trim().toLowerCase()) && this.value != ""){
                         founditems.add(item);
@@ -326,7 +326,7 @@ function getcurrentcards (products){
     currentproducts = [];
     let cards = document.getElementsByClassName("card");
     let cardindex;
-        for(let product of products){
+        for(let product of products.products){
             if(product.category.split("-").join(" ").toLowerCase() == localStorage.getItem("CurrentLocation")){
                 currentproducts.push(product);
             }
