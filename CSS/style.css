@@ -866,6 +866,12 @@ footer{
     }
 } 
 @media screen and (max-width:600px) {
+    .SearchBox{
+        width: 50%;
+    }
+    .SearchBox .form-control{
+        padding-left: 8px;
+    }
     .sidebar{
         width: 55%;
     }
