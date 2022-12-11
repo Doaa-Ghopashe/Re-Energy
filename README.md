@@ -15,7 +15,7 @@ A restaurant website for making orders. What is new in this system is that it he
 https://doaaadel1999.github.io/Re-Energy/Home.html
 
 # Snapshots
-## --------------------------------- HomePage ---------------------------------------------
+## ----------------------------------- HomePage -------------------------------------
 
 ![Screenshot (18)](https://user-images.githubusercontent.com/48122971/206933245-df719fb1-c875-48e0-b068-e42e30ff0071.png)
 
