@@ -2,7 +2,7 @@
 async function getData (callback){
     let response = await fetch("db.json");
     let finalresult = await response.json();
-    callback(finalresult);
+    callback(finalresult.products);
 }
 //this function to cancel the main action of the link
 function preventDefaultAction (e){
@@ -206,8 +206,7 @@ if(location.href.includes("index2.html")){
     //function to list the products in the localstorage in the index2 page according to its category
     function displayproducts(products){
         document.querySelector(".products .row").innerHTML = "";
-        for(let item of products.products){
-
+        for(let item of products){
             if(item.category.split("-").join(" ").toLowerCase() == localStorage.getItem("CurrentLocation")){
                 let productcard = `
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
@@ -294,7 +293,6 @@ if(location.href.includes("index2.html")){
     };
     //function for search
     function search (products){
-        
         $(".SearchBox .form-control").on("keyup" , function(e){
             let founditems = new Set();
             for(let item of products){
@@ -320,13 +318,13 @@ if(location.href.includes("index2.html")){
 
 }
 //------------------------------------------------------------
-//function to add the current products in the localstorage and the index of the card that has the click event
+//function to add the current products in the array and the index of the card in the localstorage. this card has the click event
 let currentproducts;
 function getcurrentcards (products){
     currentproducts = [];
     let cards = document.getElementsByClassName("card");
     let cardindex;
-        for(let product of products.products){
+        for(let product of products){
             if(product.category.split("-").join(" ").toLowerCase() == localStorage.getItem("CurrentLocation")){
                 currentproducts.push(product);
             }
