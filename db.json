@@ -1,4 +1,3 @@
-
 {
   "products": [
     {
@@ -720,6 +719,22 @@
       ],
       "recipe": "",
       "id": 2
+    },
+    {
+      "name": "Ice Cream",
+      "category": "Desserts",
+      "imgsrc": "Assets/Images/Desserts/Dessert 6.jpg ",
+      "price": "45.00",
+      "Info": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "recipe": "",
+      "id": 15
     }
   ]
 }
