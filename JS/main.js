@@ -153,7 +153,8 @@ if(document.location.href.includes("products.html")){
         }
         let directory;
         
-        if(category[0].value.split("-").join(" ").toLowerCase() == "breakfast" || category[0].value.split("-").join(" ").toLowerCase() == "lunch" ){
+        if(category[0].value.split("-").join(" ").toLowerCase() == "breakfast" || 
+        category[0].value.split("-").join(" ").toLowerCase() == "lunch" ){
             directory = "Food";
         }
         else if(category[0].value.split("-").join(" ").toLowerCase() == "fresh drinks" ){
@@ -428,6 +429,7 @@ function displayOrders(){
     let orderdiv = document.createElement('div');
     let  ordershtml = '';
     orderdiv.classList.add("order");
+    
     if(localStorage.getItem("orders") != null){
         for(let i = 0  ; i < JSON.parse(localStorage.getItem("orders")).length ; i++){
                 ordershtml +=
@@ -449,8 +451,9 @@ function displayOrders(){
     }   
     document.querySelector(".orderContainer").innerHTML = ordershtml;
     let remove_Btn = document.getElementsByClassName("removebtn");
-        for(let j = 0 ; j < remove_Btn.length ; j++){
-            remove_Btn[j].addEventListener("click",preventDefaultAction);
+    //function to remove orders
+    for(let j = 0 ; j < remove_Btn.length ; j++){
+        remove_Btn[j].addEventListener("click",preventDefaultAction);
     }
     totalOrders();
 }
@@ -465,8 +468,9 @@ function totalOrders (){
     let totalPortein = 0;
     let totalFibers = 0;
     let totalCalaories = 0;
-
+  
     for(let item of ordersList){
+
         totalprice += Number(item.price * item.numberoforders);
         totalCarbo += Number(item.Info[0]);
         totalFats += Number(item.Info[1]);
@@ -503,6 +507,7 @@ function confirmOrders (){
         setTimeout(() => {$(".Waiting-screen").fadeIn(2000)} , 1000);
         setTimeout(() => {$(".Waiting-screen").fadeOut(1000)} , 15000);
         localStorage.removeItem("orders");
+        ordersList.splice(0)
         getData(displayOrders)
     })
 }
