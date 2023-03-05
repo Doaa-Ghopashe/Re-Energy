@@ -247,7 +247,6 @@ if(location.href.includes("index2.html")){
     
         return range(1,sideWidth).concat(0,range(page - leftWidth , page + rightWidth) , 0 , range(totalPages - sideWidth +  1 , totalPages));
     }
-    
     function pagination() {
         var numberOfItems = $(".card").length;
         var limitPerPage = 6 ;
