@@ -196,9 +196,11 @@ if(document.location.href.includes("products.html")){
 //------------------------------------------------------------
 //to find the current location and set it to the localstorage
 let activePage = document.getElementsByClassName("activepage"); 
+console.log(activePage)
 for(let index =  0 ; index < activePage.length ; index++){
     activePage[index].addEventListener("click" , function(e){
-        localStorage.setItem("CurrentLocation",e.path[0].textContent.trim().toLowerCase()) ;
+        // e.preventDefault();
+        localStorage.setItem("CurrentLocation",e.target.innerHTML.toLowerCase()) ;
     })
 }
 //------------------------------------------------------------
